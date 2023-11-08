@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="add.css">
+</head>
+<body>
+    <h1>Enter the your favorite food</h1>
+    <div class="foo">
+        <h3>Instruction</h3>
+        <p>Add the value, enter the value in input box, next added</p>
+        <p>Edit the value ,clike the value, next edit next, click edit button</p>
+        <p>Delete the value clike the value, click delete button</p>
+    </div>
+    <input type="text" id="food" placeholder="Enter the your favorite food"><br>
+    <button type="submit" onclick="added()" id="btn">add list</button>
+    <button type="submit" onclick="edit()">edit item</button>
+    <button type="submit" onclick="deletes()">delete</button>
+     <div id="foods" >
+        <div>Pancake.</div>
+        <div>Sandwich.</div>
+     </div>
+     <div class="end">back to <a href="index.html">logout?</a></div>
+     <script src="add.js"></script>
+</body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+<div class="container">
+    <form action="" name="formfill" id="form" onsubmit="return validate()">
+        <h1>Login</h1>
+        <div class="input-all">
+            <label for="email">Email</label>
+            <input type="text" id="email" name="email">
+            <div id="error"></div>
+        </div>
+        <div class="input-all">
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" autocomplete="current-password">
+            <div id="errortwo"></div>
+        </div>
+        <div class="btns">
+        <button type="submit">Login</button>
+        <button><a href="signup.html">Signup</a></button>
+    </div>
+      <div class="end">anthor account <a href="www.gmail.com">switch?</a></div>
+    </form>
+</div>
+<script src="script.js"></script>   
+</body>
+</html>

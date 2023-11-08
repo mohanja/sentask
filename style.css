@@ -1,0 +1,128 @@
+body{
+   width: 100%;
+   height: 100vh; 
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-image: url("https://www.wallpapertip.com/wmimgs/50-504459_fast-food-4k.jpg");
+   background-position:bottom;
+   /* background:linear-gradient(45deg,rgb(7, 204, 243),rgb(240, 7, 189)) */
+}
+
+#form{
+    padding: 0px 30px 30px ;
+width: 300px;
+margin: 0 auto;
+background: rgba(255, 255, 255, 0.2);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(255, 255, 255, 0.3);
+}
+.input-all{
+    display: flex;
+    flex-direction: column;
+}
+h1{
+    text-align: center;
+    color: red;
+}
+label{
+    font-weight: 700;
+    font-size: 1.4rem;
+}
+input{
+  
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 6px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding:10px 80px 10px 2px; 
+}
+
+.title{
+    font-size: 2rem;
+    text-align: center;
+    font-weight: bold;
+}
+button{
+    font-weight: bold;
+   width: 48%;
+   height: 35px;
+   margin-right:2%;
+   margin-top: 10px;
+   background: rgba(255, 255, 255, 0.2);
+   border-radius: 6px;
+   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+   backdrop-filter: blur(5px);
+   -webkit-backdrop-filter: blur(5px);
+   border: 1px solid rgba(255, 255, 255, 0.3);
+}
+.btn1{
+    font-weight: bold;
+    margin-left:2%;
+    width: 48%;
+    height: 35px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 6px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+
+ }
+button a{
+    padding: 10px 40px;
+    text-decoration: none;
+    color: #1c1b1b;
+}
+button a:hover{
+    color: white;
+}
+ .btns{
+    display: flex;
+    margin-bottom: 30px;
+ }
+.end{
+    text-align: center;
+    
+}
+ .link{
+    text-align: center;
+    font-size: 0.9rem;
+    margin-top: 20px;
+ }
+button:hover{
+    cursor: pointer;
+background-color: rgb(252, 6, 244);
+color: white;
+
+ }
+ .btn1:hover{
+    background-color: rgb(6, 186, 252);
+    color: white;
+     }
+#error{
+    font-weight: bold;
+    text-transform: capitalize;
+    color: red;
+}
+#errortwo
+    {
+        font-weight: bold;
+        text-transform: capitalize;
+        color: red;
+    }
+
+.inpt .success input{
+border-color: greenyellow;
+}
+
+.inpt .errors input{
+    border-color: rgb(255, 47, 47);
+    }
