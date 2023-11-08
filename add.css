@@ -1,0 +1,83 @@
+body{
+    width: 90%;
+    height: 120vh;
+    text-align: center;
+    font-size: 1.6rem;
+       background:linear-gradient(45deg,rgb(7, 204, 243),rgb(240, 7, 189))
+}
+h1{
+    text-transform: uppercase;
+    color: black;
+}
+input{
+    margin-bottom:20px;
+    font-size: 1rem;
+    padding: 15px 300px  15px 0px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 6px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+button:hover{
+    cursor: pointer;
+background-color: rgb(252, 6, 244);
+color: rgb(241, 236, 236);
+
+ }
+ button{
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px 15px 15px 17px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 6px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+ }
+#foods{
+    color: white;
+    text-transform: capitalize;
+    margin-top: 5%;
+    text-align:center;
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+.foo{
+    color: white;
+    text-transform: capitalize;
+    width: 360px;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 3%;
+    margin: 5% auto; 
+    background: rgba(255, 255, 255, 0.2);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.end{
+    font-size: 0.9rem;
+    color: black;
+    text-align: center;
+    margin: 10%;
+}
+
+@media only screen and (max-width:1000px){
+    input{
+        padding: 15px 150px  10px 0px;
+
+    }
+    .foo{
+        width: 300px;
+    }
+   button{
+    flex-wrap: wrap;
+   }
+}
